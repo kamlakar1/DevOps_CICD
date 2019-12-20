@@ -1,5 +1,5 @@
 ---
-- hosts: all
+- hosts: kamlakar
   tasks:
     - name: WebServer Package Installation
       package: name=httpd state=present
